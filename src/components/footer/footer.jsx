@@ -2,7 +2,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright ⓒ {year}</p>
+      <p>Copyright ⓒ {year} by Dmytro Podolian</p>
       <a href="https://github.com/Chargk" target="_blank">
         <i class="footer-links brands-footer fa-brands fa-github fa-2x"></i>
       </a>
