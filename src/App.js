@@ -6,7 +6,7 @@ import Authentication from "./routes/authentication/authentication.component";
 import Footer from "./components/footer/footer";
 
 const Shop = () => {
-  return <h1>I am the shop page</h1>;
+  return <h1>Will be soon...</h1>;
 };
 
 const App = () => {

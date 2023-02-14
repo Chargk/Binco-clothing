@@ -18,16 +18,22 @@ a {
 * {
   box-sizing: border-box;
 }
-#footer {
-  background: #F6F6F6;
+footer {
+  position: absolute;
   text-align: center;
-  padding: 7% 15%;
-}
-
-.footer-text {
-  margin-top: 40px;
+  bottom: 50px;
+  left: 45%;
 }
 
 .brands-footer {
+  position: relative;
   padding: 0 15px;
+}
+
+.footer-links {
+  color: gray;
+}
+
+.footer-links:hover {
+  color: black
 }
