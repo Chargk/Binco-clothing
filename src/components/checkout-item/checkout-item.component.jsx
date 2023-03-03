@@ -4,12 +4,12 @@ import { useContext } from "react";
 import { CartContext } from "../../contexts/cart.context";
 
 const CheckoutItem = ({ cartItem }) => {
-  const { deleteItemFromCart, addItemToCart, removeItemFromCart } =
+  const { clearItemFromCart, addItemToCart, removeItemFromCart } =
     useContext(CartContext);
 
   const { name, imageUrl, price, quantity } = cartItem;
 
-  const deleteItemHandler = () => deleteItemFromCart(cartItem);
+  const clearItemHandler = () => clearItemFromCart(cartItem);
   const addItemHandler = () => addItemToCart(cartItem);
   const removeItemHandler = () => removeItemFromCart(cartItem);
 
@@ -30,7 +30,7 @@ const CheckoutItem = ({ cartItem }) => {
       </span>
       <span className="price">{price}</span>
       <div className="remove-button">
-        <span onClick={() => deleteItemHandler(cartItem)}>&#10005;</span>
+        <span onClick={() => clearItemHandler(cartItem)}>&#10005;</span>
       </div>
     </div>
   );
