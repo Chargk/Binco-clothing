@@ -19,3 +19,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+footer {
+  position: relative;
+  text-align: center;
+  bottom: auto;
+  left: auto;
+}
+
+.brands-footer {
+  position: relative;
+  padding: 0 15px;
+}
+
+.footer-links {
+  color: gray;
+}
+
+.footer-links:hover {
+  color: black
+}
