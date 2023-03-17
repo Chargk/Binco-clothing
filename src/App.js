@@ -5,7 +5,7 @@ import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
 import Shop from "./routes/shop/shop.component";
 import Checkout from "./routes/checkout/checkout.component";
-import { Footer } from "./components/product-card/product-card.styles";
+import Footer from "./components/footer/footer";
 
 const App = () => {
   return (
